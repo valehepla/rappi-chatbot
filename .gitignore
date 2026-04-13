@@ -1,0 +1,28 @@
+# Secrets — NEVER commit
+.env
+*.env
+
+# Data file — contains proprietary data
+data/rappi_data.xlsx
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Claude Code internal
+CLAUDE.md
